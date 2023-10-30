@@ -5,7 +5,7 @@ Open the cmd/Vscode and be on the BrainsLab_Guessing_quiz_assignment directory a
 1)python -m venv myenv
 2)myenv\Scripts\activate
 3)cd capitals_game
-4)pip install -r requirement.txt
+4)pip install -r requirements.txt
 5)python manage.py runserver( on running this you will see the server is started at http://127.0.0.1:8000/)
 6)open the browser and enter http://127.0.0.1:8000/game
 
