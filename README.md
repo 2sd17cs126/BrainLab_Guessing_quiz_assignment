@@ -1,7 +1,7 @@
 # BrainLab_Guessing_quiz_assignment
 
 Steps to run the app:
-Open the cmd/Vscode and be on the BrainsLab_assignment directory and run the below commands.
+Open the cmd/Vscode and be on the BrainsLab_Guessing_quiz_assignment directory and run the below commands.
 1)python -m venv myenv
 2)myenv\Scripts\activate
 3)cd capitals_game
