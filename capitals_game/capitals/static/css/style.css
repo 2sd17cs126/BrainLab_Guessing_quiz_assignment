@@ -1,0 +1,102 @@
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #2980b9, #6dd5fa);
+        }
+
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            width: 60%; /* Adjust the form width as needed */
+            height: 40%;
+            margin: auto;
+            border: 2px solid #000 /* Center the form horizontally on the screen */
+        }
+
+        .form-container input[type="text"] {
+            padding: 10px;
+            width: 90%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px auto;
+            text-align: center; /* Center the text within the input field */
+            text-indent: 0; /* Set the initial cursor position to the center */
+            font-size: 18px; /* Increase font size */
+        }
+
+        .form-container input[type="submit"] {
+            background-color: #2980b9;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center; /* Center the text within the input field */
+            text-indent: 0; /* Set the initial cursor position to the center */
+            transition: background-color 0.3s;
+            font-size: 18px; /* Increase font size */
+        }
+
+        .form-container input[type="submit"]:hover {
+            background-color: #195b8b; /* Darker shade on hover */
+        }
+
+        .popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+        }
+
+        .popup-content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px; /* Make the popup content rounded */
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .popup-content p {
+            font-size: 20px; /* Increase font size */
+            color: #333; /* Change the text color to a pleasant dark gray */
+            margin: 10px 0;
+        }
+
+        #close-popup {
+            background-color: #2980b9;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-size: 18px; /* Increase font size */
+        }
+
+        #close-popup:hover {
+            background-color: #195b8b; /* Darker shade on hover */
+        }
+
+        .country-label {
+            font-size: 20px; /* Increase font size */
+            font-weight: bold; /* Make it bold for emphasis */
+        }
+
+        .country-name {
+            font-size: 22px; /* Increase font size */
+            font-weight: bold; /* Make it bold for emphasis */
+            color: #e74c3c; /* Change the color to a pleasant red */
+        }

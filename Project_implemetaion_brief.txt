@@ -1,0 +1,7 @@
+
+I have developed this app using Django features:
+1) Django Models to store the data from api https://countriesnow.space/api/v0.1/countries/capital 
+2) Written script(location: management\commands\populate_countries.py ) to populate data from api to Model Country and to do achieve this i run the command 'python manage.py populate_countries' after making migrations
+3)Used static  to collect static files , to achieve this used the command 'python manage.py collectstatic'.
+4)Used Django default sqlite database
+5)To view data in sqlite database i have used DB Browser tool,attaching snapshot in snap folder.
